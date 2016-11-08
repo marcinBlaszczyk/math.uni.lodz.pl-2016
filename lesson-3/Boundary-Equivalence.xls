@@ -1,0 +1,24 @@
+Guest							
+Description	Is Case Valid	Boundry	Notes				
+Invoice cost <50	Yes	Invoice cost<= 49	"0% discount, no free transport"				
+Invoice cost between 50 and 149	Yes	Invoice cost between 50 and 149	"1% discount, no free transport"				
+Invoice cost between 150 and 299	Yes	Invoice cost between 150 and 299	"5% discount, no free transport"				
+Invoice cost >=300	Yes	Invoice cost >=300	"5% discount, free transport"				
+Invoice cost less than 1	No		Invoice cost must be greater than 0				
+							
+							
+Registered							
+Description	Is Case Valid	Boundry	Notes				
+"Invoice cost <150, "	Yes	Invoice cost <= 149	"discont 5%, no free transport"				
+"Invoice between 150 and 300, discont 5% and no free transport"	Yes	Invoice cost between 150 and 299	"discont 7%, free transport"				
+Invoice cost >=300	Yes	Invoice cost >=300	"discont 13%, free transport"				
+Invoice cost less than 1	No		Invoice cost must be greater than 0				
+							
+							
+Super Client							
+Description	Is Case Valid	Boundry	Notes				
+"Invoice cost <150, "	Yes	Invoice cost <= 149	"discont 10%, free transport"				
+"Invoice between 150 and 300, discont 5% and no free transport"	Yes	Invoice cost between 150 and 299	"discont 15%, free transport"				
+Invoice cost >=300	Yes	Invoice cost >=300	"discont 20%, free transport"				
+Invoice cost less than 1	No		Invoice cost must be greater than 0				
+							
